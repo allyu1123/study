@@ -1,4 +1,4 @@
-# 1주차_백준_while문_1110번_더하기_사이클
+# 0428_백준_while문_1110번_더하기_사이클
 # https://www.acmicpc.net/problem/1110
 
 N = int(input())
