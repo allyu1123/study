@@ -1,4 +1,4 @@
-# 1주차_백준_for문_2438번_별찍기_1
+# 0427_백준_for문_2438번_별찍기_1
 # https://www.acmicpc.net/problem/2438
 
 n = int(input())
