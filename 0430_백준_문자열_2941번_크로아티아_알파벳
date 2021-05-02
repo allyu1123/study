@@ -1,0 +1,10 @@
+# 0430_백준_문자열_2941번_크로아티아_알파벳
+# https://www.acmicpc.net/problem/2941
+
+cro = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
+n = str(input())
+
+for i in cro :
+    n = n.replace(i, '1')
+
+print(len(n))
