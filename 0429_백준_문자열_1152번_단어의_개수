@@ -1,0 +1,8 @@
+# 0429_백준_문자열_1152번_단어의_개수
+# https://www.acmicpc.net/problem/1152
+
+n = str(input())
+b = n.split( )
+a = len(b)
+
+print(a)
