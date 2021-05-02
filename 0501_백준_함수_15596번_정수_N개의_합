@@ -1,0 +1,8 @@
+# 0501_백준_함수_15596번_정수_N개의_합
+# https://www.acmicpc.net/problem/15596
+
+def solve(a):
+    ans = 0
+    for i in a:
+        ans += i
+    return ans
