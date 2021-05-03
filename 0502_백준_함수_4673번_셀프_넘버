@@ -1,0 +1,28 @@
+# 0502_백준_함수_4673번_셀프_넘버
+# https://www.acmicpc.net/problem/4673
+
+"""
+1. 셀프넘버 아닌 수 구하는 함수
+2. 배열안에 셀프넘버 아닌 수 모아두기
+3. 1부터 비교하며 배열안에 없는 값 출력
+"""
+
+# 1. 셀프넘버 아닌 수 구하는 함수
+def self(n):
+    ans = n
+    k=list(str(n))
+    for i in k:
+        ans += int(i)
+    return ans
+
+# 2. 배열안에 셀프넘버 아닌 수 모아두기
+sf = []
+for k in range(1,10001):
+    sf.append(self(k))
+
+# 3. 1부터 비교하며 배열안에 없는 값 출력
+for a in range(1,10001):
+    if a in sf:
+        pass
+    else:
+        print(a)
